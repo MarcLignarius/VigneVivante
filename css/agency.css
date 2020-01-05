@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v5.2.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
@@ -48,13 +48,13 @@ h6 {
 }
 
 .page-section {
-  padding: 100px 0px 0px 0px;
+  padding: 100px 0;
 }
 
 .page-section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 75px;
+  margin-bottom: 15px;
 }
 
 .page-section h3.section-subheading {
@@ -66,8 +66,17 @@ h6 {
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-.image-text-container {
+.image-and-text-container {
   position: relative;
+  margin-bottom: 1em;
+}
+
+.container-text {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  background-color: rgba(255, 245, 255, 0.7);
+  padding: 0px 20px;
 }
 
 .card-body {
@@ -328,19 +337,6 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio * {
   z-index: 2;
-}
-
-#services .image-and-text-container {
-  position: relative;
-  margin-bottom: 1em;
-}
-
-#services .container-text {
-  position: absolute;
-  left: 40%;
-  top: 30%;
-  background-color: rgba(255, 245, 255, 0.7);
-  padding: 0px 20px;
 }
 
 @media (min-width: 767px) {
