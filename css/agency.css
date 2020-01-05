@@ -96,6 +96,9 @@ h6 {
 }
 
 @media (min-width: 768px) {
+  .card-body {
+    padding: 1.25rem 1.25rem 3rem;
+  }
   .card-title {
     top: 40%;
     font-size: 50px;
