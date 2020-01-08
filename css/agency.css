@@ -152,11 +152,13 @@ img::-moz-selection {
 .btn-primary {
   background-color: #6DA693;
   border-color: #6DA693;
+  transition: 0.5s;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #6DA693 !important;
+  border-color: #6DA693 !important;
+  filter: brightness(90%);
   color: white;
 }
 
