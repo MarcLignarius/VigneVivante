@@ -158,13 +158,13 @@ img::-moz-selection {
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #6DA693 !important;
   border-color: #6DA693 !important;
-  filter: brightness(90%);
+  filter: brightness(85%);
   color: white;
 }
 
-.btn-primary:active, .btn-primary:focus {
+/* .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
-}
+} */
 
 #mainNav {
   background-color: #212529;
@@ -183,11 +183,13 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: #6DA693;
+  transition: 0.5s;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #6DA693;
+  filter: brightness(85%);
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
