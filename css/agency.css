@@ -80,6 +80,12 @@ h6 {
   height: 260px;
 }
 
+@media (max-width: 1200px) {
+  .container-text {
+    height: 220px;
+  }
+}
+
 .card-body {
   padding: 1.25rem;
 }
