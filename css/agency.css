@@ -115,6 +115,21 @@ img[src="img/nicolas.jpeg"] {
   width: 100%;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  img[src="img/nicolas.jpeg"] {
+    width: 50%;
+  }
+  #img-col {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  img[src="img/nicolas.jpeg"] {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1024px) {
   img[src="img/nicolas.jpeg"] {
     margin-bottom: 25px;
