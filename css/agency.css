@@ -111,6 +111,10 @@ h6 {
   }
 }
 
+img[src="img/nicolas.jpeg"] {
+  width: 100%;
+}
+
 @media (max-width: 1024px) {
   img[src="img/nicolas.jpeg"] {
     margin-bottom: 25px;
